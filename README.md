@@ -11,5 +11,8 @@ Copy
 import pandas as pd
 
 # Load data
+```
 data = pd.read_csv('telco_churn.csv')
 data['Churn'] = data['Churn'].map({'Yes': 1, 'No': 0})
+```
+
